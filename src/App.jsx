@@ -1,13 +1,12 @@
+import MainPage from "./components/MainPage"
+import NavBar from "./components/NavBar"
 
 function App() {
 
   return (
     <>
-      <div>
-      <p>
-      ECOMMERCE STORE
-      </p>
-      </div>
+        <NavBar/>
+        <MainPage/>
     </>
   )
 }
